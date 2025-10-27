@@ -86,10 +86,6 @@ Channel selection order:
 
 `content()`: Sets a content of the notification message.
 
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ## Testing
 
 ```bash
@@ -98,11 +94,11 @@ $ composer test
 
 ## Security
 
-If you discover any security related issues, please email vishnu@koothattu.com instead of using the issue tracker.
+If you discover any security related issues, please email vishnu@koothattu.com or johan@molnix.com instead of using the issue tracker.
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+You are welcome to contribute
 
 ## Credits
 
@@ -112,3 +108,5 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+Made with ❤ in Finland with [Molnix](https://molnix.com)
