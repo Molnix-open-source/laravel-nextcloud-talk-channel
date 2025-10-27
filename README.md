@@ -20,7 +20,7 @@ This package makes it easy to send notifications using [NextcloudTalk](https://n
 You can install this package via composer:
 
 ```bash
-composer require molnix/nextcloud-talk
+composer require molnix/laravel-nextcloud-talk-channel
 ```
 
 ### Setting up the NextcloudTalk service
