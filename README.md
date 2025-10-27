@@ -1,5 +1,7 @@
 # Nextcloud talk notification channel
 
+![Tests](https://github.com/Molnix-open-source/laravel-nextcloud-talk-channel/actions/workflows/tests.yml/badge.svg?branch=main)
+
 This package makes it easy to send notifications using [NextcloudTalk](https://nextcloud.com/) with Laravel 10.x, 11.x and 12.x.
 
 ## Contents
