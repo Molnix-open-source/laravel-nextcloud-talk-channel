@@ -96,7 +96,7 @@ $ composer test
 
 ## Security
 
-If you discover any security related issues, please email vishnu@koothattu.com or johan@molnix.com instead of using the issue tracker.
+If you discover any security related issues, please email vishnu@monlnix.com or johan@molnix.com instead of using the issue tracker.
 
 ## Contributing
 
