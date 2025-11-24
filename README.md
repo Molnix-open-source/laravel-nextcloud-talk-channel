@@ -104,7 +104,7 @@ You are welcome to contribute
 
 ## Credits
 
--   [Vishnu Koothattu](https://github.com/vish404)
+-   [Vishnu](https://github.com/vish404)
 -   [All Contributors](../../contributors)
 
 ## License
