@@ -16,6 +16,9 @@ class NextcloudTalkServiceProvider extends ServiceProvider
         $this->app->when(NextcloudTalkChannel::class)
         ->needs(NextcloudTalk::class)
         ->give(function () {
+            if (!Config::get('services.nextcloudtalk.url')) {
+                return null;
+            }
             return new NextcloudTalk(
                 new Client([
                     'base_uri' => rtrim(Config::get('services.nextcloudtalk.url'), '/'),

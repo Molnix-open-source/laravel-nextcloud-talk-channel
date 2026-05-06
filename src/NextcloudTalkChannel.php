@@ -9,7 +9,7 @@ class NextcloudTalkChannel
 {
     protected $nextcloudTalk;
 
-    public function __construct(NextcloudTalk $nextcloudTalk)
+    public function __construct(?NextcloudTalk $nextcloudTalk)
     {
         $this->nextcloudTalk = $nextcloudTalk;
     }
@@ -24,6 +24,9 @@ class NextcloudTalkChannel
      */
     public function send($notifiable, Notification $notification)
     {
+        if (!$this->nextcloudTalk) {
+            return;
+        }
         $message = $notification->toNextcloudTalk($notifiable);
 
         if (! ($message instanceof NextcloudTalkMessage)) {
